@@ -31,10 +31,11 @@ cd ~/dotfiles
 
 echo "Pulling dotfiles changes"
 if [ -f ".date" -a "$(day-date)" != "$(cat .date)" ]; then
-        git fetch && git pull
+  git fetch && git pull && day-date > .date
+else
+  day-date > .date
 fi;
 
-day-date > .date
 echo "Day date: $(cat .date)"
 
 if [ -f ~/dotfiles/aliases/.hidden ]; then

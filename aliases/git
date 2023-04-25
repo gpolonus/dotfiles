@@ -140,3 +140,7 @@ gcmnv() {
 alias commit-of-tag="git rev-list -n 1 "
 
 alias gpf="gp --force"
+
+function gitzip() {
+  git archive -o $@.zip HEAD
+}
