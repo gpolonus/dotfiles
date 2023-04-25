@@ -10,7 +10,7 @@ gchb() {
 gcrb() {
         _load_vars
         git fetch
-        git checkout origin/$GIT_DEV_BRANCH
+        git checkout $GIT_UPSTREAM/$GIT_DEV_BRANCH
         GIT_BRANCH_NAME=$GIT_BRANCH_PREFIX$1
         git checkout -b $GIT_BRANCH_NAME
         git push --no-verify --set-upstream origin $GIT_BRANCH_NAME

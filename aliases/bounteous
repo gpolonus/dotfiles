@@ -12,6 +12,7 @@ _load_vars() {
 		GIT_BRANCH_PREFIX="ENT-"
 		JIRA_TICKET_PREFIX="ENT-"
 		GIT_DEV_BRANCH="dev"
+		GIT_UPSTREAM="upstream"
 	fi;
 
 	if [[ "$(pwd)" == *"Sites/peoni-portal"* ]] then;
@@ -19,8 +20,6 @@ _load_vars() {
 		JIRA_TICKET_PREFIX="SEA-"
 		GIT_DEV_BRANCH="portal"
 	fi;
-
-	TIDDLY_DIR="/Users/griffenpolonus/Projects/gtd-wiki"
 }
 
 dlone() {

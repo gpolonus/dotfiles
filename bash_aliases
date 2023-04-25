@@ -14,6 +14,7 @@ _default_vars() {
         GIT_BRANCH_PREFIX=""
         JIRA_TICKET_PREFIX=""
         GIT_DEV_BRANCH="develop"
+        GIT_UPSTREAM="origin"
 }
 
 _load_vars() {
