@@ -1,0 +1,11 @@
+
+alias vault="cd ~/vault"
+
+function obp() {
+  cd ~/vaults
+  git pull origin main
+  git add .
+  git commit -m "vault backup"
+  git push
+  cd -
+}

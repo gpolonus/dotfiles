@@ -20,3 +20,11 @@ alias heic-to-jpg="mogrify -format jpg *.HEIC"
 alias ssh_retro="ssh pi@10.0.0.50"
 
 alias sftp_retro="sftp pi@10.0.0.50"
+
+discord_install() {
+  cd ~/Downloads
+  DISCORD_INSTALL_FILE="$(ls | grep discord)"
+  sudo dpkg -i $DISCORD_INSTALL_FILE
+  rm $DISCORD_INSTALL_FILE
+  cd -
+}
