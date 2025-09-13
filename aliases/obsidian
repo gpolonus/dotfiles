@@ -9,3 +9,5 @@ function obp() {
   git push
   cd -
 }
+
+alias cd /home/grif/Projects/nubuj=""
