@@ -64,7 +64,7 @@ gcid() {
 
 gacid() {
         git add -A
-        gcid $1
+        gcid "$1"
 }
 
 gcidnv() {
