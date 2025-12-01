@@ -1,2 +1,1 @@
 export PATH=$PATH:/snap/bin/zig
-alias audio-fix="pulseaudio -k && sudo alsa force-reload"

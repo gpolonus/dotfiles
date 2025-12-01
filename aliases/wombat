@@ -28,3 +28,7 @@ discord_install() {
   rm $DISCORD_INSTALL_FILE
   cd -
 }
+
+alias advent="cd /home/grif/Projects/advent_of_code"
+
+alias audio-fix="pulseaudio -k && sudo alsa force-reload"
