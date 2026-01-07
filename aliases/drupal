@@ -178,3 +178,17 @@ alias composer-install="COMPOSER_PROCESS_TIMEOUT=6000 /usr/local/bin/composer in
 
 alias local-composer="COMPOSER_PROCESS_TIMEOUT=6000 /usr/local/bin/composer "
 alias local_composer="/usr/local/bin/composer"
+
+drupal_ddev_quickstart() {
+        mkdir "$1" && cd "$1"
+        ddev config --project-type=drupal11 --docroot=web
+        ddev start
+        # ddev composer create-project "drupal/recommended-project:^11"
+        ddev composer create drupal/cms
+        ddev composer require drush/drush
+        # Use the default site install UI for Drupal CMS
+        # ddev drush site:install --account-name=admin --account-pass=admin -y
+        ddev launch
+        # or automatically log in with
+        # ddev launch $(ddev drush uli)
+}
