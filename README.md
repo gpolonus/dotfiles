@@ -20,6 +20,10 @@
 
 
 ## Future Features:
+- git config
+    - username etc
+    - create branch in remote on push globally
+        - and changing the 'grcb' alias to reflect this change
 - vim config
 - tmux config
 - vscode settings

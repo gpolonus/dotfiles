@@ -75,9 +75,17 @@
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "workbench.editor.empty.hint": "hidden",
-    "window.zoomLevel": 1,
     "workbench.editor.focusRecentEditorAfterClose": false,
     "git.openRepositoryInParentFolders": "always",
     "editor.lightbulb.enabled": "off",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 
 }
