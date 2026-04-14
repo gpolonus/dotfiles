@@ -1,21 +1,20 @@
 
 _load_drupal_vars() {
-        THEME_BUILD_COMMAND="lando npm run webpack"
+        THEME_BUILD_COMMAND="npm run webpack"
 	if [[ "$(pwd)" == *"Sites/peoni-health"* ]] then;
-		DRUPAL_THEME_PATH="/Users/griffenpolonus/Sites/peoni-health/docroot/themes/custom/peoni"
+		DRUPAL_THEME_PATH="/Users/Griffin.Polonus/Sites/peoni-health/docroot/themes/custom/peoni"
 		DRUSH_ALIAS_PREFIX="rubi"
 	fi;
 
         if [[ "$(pwd)" == *"Sites/entegra"* ]] then;
-		DRUPAL_THEME_PATH="/Users/griffenpolonus/Sites/entegra/docroot/themes/custom/entegra_mygpo"
+		DRUPAL_THEME_PATH="/Users/Griffin.Polonus/Sites/entegra/docroot/themes/custom/entegra_mygpo"
                 DRUPAL_ACCOUNT_EMAIL="griffin.polonus@entegra.com" # ??
 		DRUSH_ALIAS_PREFIX="entegramygpoportal"
 	fi;
 
 	if [[ "$(pwd)" == *"Sites/edb"* ]] then;
-		DRUPAL_THEME_PATH="/Users/griffenpolonus/Sites/edb/docroot/themes/custom/edb_theme"
+		DRUPAL_THEME_PATH="/Users/Griffin.Polonus/Sites/edb/docroot/themes/custom/edb_theme"
                 DRUPAL_ACCOUNT_EMAIL="griffin.polonus@enterprisedb.com"
-                THEME_BUILD_COMMAND="lando npm run watch"
 		DRUSH_ALIAS_PREFIX="edb"
 	fi;
 }

@@ -1,12 +1,8 @@
 
 alias dcup="docker-compose up -d"
 alias dcdown="docker-compose down"
-alias lstart="lando start"
 alias dps="sudo docker ps -a"
 alias dpsa="dps"
-alias drush="lando drush"
-alias blt="lando blt"
-alias composer="lando composer"
 
 dssh() {
   docker exec -i -t "$1" bash
@@ -36,4 +32,7 @@ dcomposer() {
   dexec "$DRUPAL_WEB_CONTAINER_NAME" composer $@
 }
 
-
+# For my work mac
+# ddev doesn't have a router that works with this platform, so it's kinda broken
+# plus this doesn't fix the problem with amd64 images having performance issues in docker
+# export DOCKER_DEFAULT_PLATFORM=linux/amd64

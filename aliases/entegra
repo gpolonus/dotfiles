@@ -1,10 +1,10 @@
 
-alias entegra="cd /Users/griffenpolonus/Sites/entegra"
+alias entegra="cd /Users/Griffin.Polonus/Sites/entegra"
 
-alias entegra-theme="cd /Users/griffenpolonus/Sites/entegra/docroot/themes/custom/entegra_mygpo"
+alias entegra-theme="cd /Users/Griffin.Polonus/Sites/entegra/docroot/themes/custom/entegra_mygpo"
 
 entegra_twstart() {
-	cd /Users/griffenpolonus/Projects/wikis/entegra
+	cd /Users/Griffin.Polonus/Projects/wikis/entegra
 	twstart
 }
 

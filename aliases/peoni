@@ -1,17 +1,17 @@
 
-alias portal="cd /Users/griffenpolonus/Sites/peoni-portal"
+alias portal="cd /Users/Griffin.Polonus/Sites/peoni-portal"
 
-alias copy-backup="cp /Users/griffenpolonus/Sites/peoni-health/backups/import.sql /Users/griffenpolonus/Sites/peoni-portal/backups"
+alias copy-backup="cp /Users/Griffin.Polonus/Sites/peoni-health/backups/import.sql /Users/Griffin.Polonus/Sites/peoni-portal/backups"
 
-alias peoni="cd /Users/griffenpolonus/Sites/peoni-health"
+alias peoni="cd /Users/Griffin.Polonus/Sites/peoni-health"
 
-alias peoni-theme="cd /Users/griffenpolonus/Sites/peoni-health/docroot/themes/custom/peoni"
+alias peoni-theme="cd /Users/Griffin.Polonus/Sites/peoni-health/docroot/themes/custom/peoni"
 
-alias peoni-react="cd /Users/griffenpolonus/Sites/peoni-health/docroot/modules/custom/peoni_search/react"
+alias peoni-react="cd /Users/Griffin.Polonus/Sites/peoni-health/docroot/modules/custom/peoni_search/react"
 
-alias peoni-theme-watch="peoni-theme && lando npm run webpack"
+# alias peoni-theme-watch="peoni-theme && lando npm run webpack"
 
-alias peoni-react-watch="peoni-react && lando npm run watch"
+# alias peoni-react-watch="peoni-react && lando npm run watch"
 
 alias dpp="drush @peoni.prod"
 

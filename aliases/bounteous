@@ -26,34 +26,34 @@ _load_vars() {
 		GIT_DEV_BRANCH="develop"
 	fi;
 
-	TIDDLY_DIR="/Users/griffenpolonus/Projects/gtd-wiki"
+	TIDDLY_DIR="/Users/Griffin.Polonus/Projects/gtd-wiki"
 }
 
 dlone() {
 	git clone "git@git.drupal.org:project/$1.git"
 }
 
-alias bcom="cd /Users/griffenpolonus/Sites/bounteous.com"
-alias repos="cd /Users/griffenpolonus/Repos"
-alias sites="cd /Users/griffenpolonus/Sites"
+alias bcom="cd /Users/Griffin.Polonus/Sites/bounteous.com"
+alias repos="cd /Users/Griffin.Polonus/Repos"
+alias sites="cd /Users/Griffin.Polonus/Sites"
 alias proj="cd ~/Projects"
-alias sandbox-site-studio="cd /Users/griffenpolonus/Sites/acsf-sandbox-7"
+alias sandbox-site-studio="cd /Users/Griffin.Polonus/Sites/acsf-sandbox-7"
 
 # read -r -d '' DRUSH_SITE_FOLDER_MAP << EOM
 # Sites/acsf-sandbox-7: template.lndo.site
 # Sites/peoni-health: peoni-health.lndo.site
 # EOM
 
-alias myabetes="cd /Users/griffenpolonus/Sites/myabetes"
+alias myabetes="cd /Users/Griffin.Polonus/Sites/myabetes"
 
-alias scripts="cd /Users/griffenpolonus/Sites/scripts"
+alias scripts="cd /Users/Griffin.Polonus/Sites/scripts"
 
-alias bounteous="cd /Users/griffenpolonus/Sites/peoni-health/docroot/modules/custom/peoni_search/react"
+alias bounteous="cd /Users/Griffin.Polonus/Sites/peoni-health/docroot/modules/custom/peoni_search/react"
 
 alias cfzf='code $(fzf)'
 
-alias wikis="cd /Users/griffenpolonus/Projects/wikis && ls"
+alias wikis="cd /Users/Griffin.Polonus/Projects/wikis && ls"
 
-alias cats="cd /Users/griffenpolonus/Repos/cat-files"
+alias cats="cd /Users/Griffin.Polonus/Repos/cat-files"
 
-alias next="cd /Users/griffenpolonus/Projects/next-drupal"
+alias next="cd /Users/Griffin.Polonus/Projects/next-drupal"
