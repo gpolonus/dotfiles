@@ -16,3 +16,5 @@ entegra_new_branch() {
 }
 
 alias jmi="cd /Users/Griffin.Polonus/Sites/jminsure-poc"
+
+alias bell="printf ''"
