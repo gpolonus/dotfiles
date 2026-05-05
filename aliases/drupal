@@ -19,6 +19,9 @@ _load_drupal_vars() {
 	fi;
 }
 
+# Add the composer installed package binaries to the PATH
+PATH=$PATH:./vendor/bin
+
 alias bs="blt sync"
 
 # Ensures that BLT can validate all the YAMLs during a git pre-push hook
