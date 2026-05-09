@@ -32,3 +32,6 @@ discord_install() {
 alias advent="cd /home/grif/Projects/advent_of_code"
 
 alias audio-fix="pulseaudio -k && sudo alsa force-reload"
+
+alias nubuj="cd /home/grif/Projects/nubuj"
+alias vaults="cd /home/grif/vaults"

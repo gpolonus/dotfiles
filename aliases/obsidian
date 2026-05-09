@@ -10,5 +10,4 @@ function obp() {
   cd -
 }
 
-alias cd /home/grif/Projects/nubuj=""
 
