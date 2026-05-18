@@ -35,3 +35,5 @@ alias audio-fix="pulseaudio -k && sudo alsa force-reload"
 
 alias nubuj="cd /home/grif/Projects/nubuj"
 alias vaults="cd /home/grif/vaults"
+
+alias dragon="cd /home/grif/Projects/game_notes/dragon_assassin"
